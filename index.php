@@ -82,6 +82,7 @@
                 </div>
               </div>
  
+              <input type="submit" name="save">
               <button type="submit" name="save" class="add-btn btn btn-success float-right" data-toggle="modal" data-target="#exampleModalCenter">Analyse Mood</button>
               <button type="button" name="delete" class="delete-btn btn btn-danger float-right">Delete</button>
               <button type="button" class="back-btn btn btn-secondary float-right">Back</button>
