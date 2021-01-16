@@ -7,10 +7,19 @@
 <body>
 
 <?php
-$servername = "localhost";
+
+// Localhost connection
+/* $servername = "localhost";
 $user = 'root';
 $pass = '';
-$db = 'mood_analysis';
+$db = 'mood_analysis'; */
+
+// Remote database connection
+$servername = "remotemysql.com";
+$user = 'w066iGFwkP';
+$pass = 'bo2hmcdOld';
+$db = 'w066iGFwkP';
+
 
 $db = mysqli_connect($servername, $user, $pass, $db) or die("Unable to connect");
 
