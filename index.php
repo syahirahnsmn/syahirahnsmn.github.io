@@ -31,8 +31,8 @@
         <div class="row">
           <div class="col-sm-12 jumbotron-fluid border shadow" style="padding: 20px; margin-top: 25px;">
             <h5><strong>Select how you feel today and click 'Analyse Mood'!</strong></h5><br><br>
-        
-            <form id="moodForm" method="POST">
+
+            <form action="" id="moodForm" method="POST">
               <div class="col-lg-6 col-md-6 float-left">
                 <div class="selext-box">
                   <p><strong>Today's most extreme depressed mood</strong></p>

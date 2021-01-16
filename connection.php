@@ -27,9 +27,8 @@ if(!$db){
     die("Connection Failed:" . mysqli_connect_error);
 }
 
-
-
 if(isset($_POST["save"])){
+    //echo($_POST['save']);
     //$id = $_POST['id'];
     //$date = date('Y-m-d', strtotime($_POST['dateinput']));
 
