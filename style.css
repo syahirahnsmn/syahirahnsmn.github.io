@@ -1,0 +1,61 @@
+/* style.css */
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+#cover {
+    background: #222 url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+}
+
+#cover-caption{
+    text-align: center;
+    align-items:center ;
+}
+
+form{
+    width: 100%;
+}
+
+.card-img-top{
+    display: flex;
+    top: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.section-content{
+    padding: 5rem 0;
+}
+
+#about{
+    background: url('https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    background: rgba(0,0,0,0.8); /*80% transparent*/
+    color: white;
+    padding: 1.875rem;
+}
