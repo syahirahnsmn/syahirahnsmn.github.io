@@ -59,3 +59,10 @@ form{
     color: white;
     padding: 1.875rem;
 }
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
